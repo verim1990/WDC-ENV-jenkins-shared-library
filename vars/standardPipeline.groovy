@@ -61,7 +61,6 @@ def call(body) {
 
 					default:
 					  echo "Skipping deployment, branch ${env.BRANCH_NAME} not configured."
-				  }
 				}
 			}
 		} catch (err) {
